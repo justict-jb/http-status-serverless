@@ -1,0 +1,51 @@
+# Composer
+/vendor/
+/composer.phar
+# composer.lock doorgaans committen voor applicaties (niet voor libraries)
+
+# Omgevingsvariabelen
+.env
+.env.*
+!.env.example
+
+# PHPUnit
+.phpunit.result.cache
+.phpunit.cache/
+coverage/
+junit.xml
+
+# Logs
+*.log
+logs/
+storage/logs/
+
+# Cache / tijdelijke bestanden
+cache/
+tmp/
+temp/
+.cache/
+var/cache/
+var/tmp/
+
+# Code quality/tools caches
+.php-cs-fixer.cache
+.php_cs.cache
+.phpstan/cache/
+.psalm-cache/
+
+# IDE/Editor
+.idea/
+*.iml
+.vscode/
+nbproject/
+
+# OS-specifiek
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Build/artefacten
+build/
+dist/
+out/
+reports/
